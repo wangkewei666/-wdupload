@@ -1,0 +1,9 @@
+<wd-upload
+          v-model:file-list="swiperList"
+          image-mode="aspectFill"
+          ref="uploader"
+          :auto-upload="false"
+          @change="handleChange1"
+          :upload-method="customUpload"
+          :before-remove="beforeRemove"
+        ></wd-upload>
